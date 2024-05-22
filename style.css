@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 130px;
+  background: linear-gradient(90deg, blue, black);
+}
+
+.hero {
+  height: 400px;
+  background-image: url('coding.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top: 3px solid black;
+}
+
+.text {
+  text-align: center;
+  font-size: 10px;
+  animation: blink-animation 1s step-end infinite;
+}
+
+@keyframes blink-animation {
+  50% {
+    opacity: 0;
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.kuri {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  border-top: 3px solid black;
+  background: linear-gradient(90deg, blue, black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+}
